@@ -22,10 +22,12 @@ public class AddressBook {
         System.out.println("Address Book");
         BuddyInfo buddy = new BuddyInfo("Faris");
         BuddyInfo buddy2 = new BuddyInfo("mostafa");
+        BuddyInfo buddy3 = new BuddyInfo("Omar");
         AddressBook addressBook = new AddressBook();
 
         addressBook.addBuddy(buddy);
         addressBook.addBuddy(buddy2);
+        addressBook.addBuddy(buddy3);
         addressBook.removeBuddy(buddy);
 
     }
